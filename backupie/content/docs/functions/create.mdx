@@ -1,0 +1,18 @@
+---
+title: Create
+description: Create Function
+---
+
+Create a backup for the server specified in the parameters!
+
+```js
+/**
+ * @param {Guild} [Guild] - The discord server you want to backup
+ * @param {object} [options] - The backup options
+*/
+
+const backup = require("backupie");
+backup.create(Guild, options).then((backupData) => {
+    console.log(backupData.id); // NSJH2
+});
+```

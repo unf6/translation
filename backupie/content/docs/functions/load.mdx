@@ -1,0 +1,18 @@
+---
+title: Load
+description: Load Function
+---
+
+Allows you to load a backup on a Discord server!
+
+```js
+/**
+ * @param {string} [backupID] - The ID of the backup that you want to load
+ * @param {Guild} [Guild] - The discord server on which you want to load the backup
+*/
+
+const backup = require("backupie");
+backup.load(backupID, Guild).then(() => {
+    backup.remove(backupID); // When the backup is loaded, it's recommended to delete it
+});
+```

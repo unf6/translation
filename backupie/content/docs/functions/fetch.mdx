@@ -1,0 +1,26 @@
+---
+title: Fetch
+description: Fetch Function
+---
+
+Fetches information from a backup!
+
+```js
+
+/**
+ * @param {string} [backupID] - The ID of the backup to fetch
+*/
+
+const backup = require("backupie");
+backup.fetch(backupID).then((backupInfos) => {
+    console.log(backupInfos);
+    /*
+    {
+        id: "BC5qo",
+        size: 0.05
+        data: {BackupData}
+    }
+    */
+});
+
+```

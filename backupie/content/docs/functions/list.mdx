@@ -1,0 +1,17 @@
+---
+title: List
+description: List Function
+---
+
+import { Callout } from 'fumadocs-ui/components/callout';
+
+<Callout title="Note" type="info">
+  `backup#list()` simply returns an array of IDs, you must fetch the ID to get complete information.
+</Callout>
+
+```js
+const backup = require("backupie");
+backup.list().then((backups) => {
+    console.log(backups); // Expected Output [ "BC5qo", "Jdo91", ...]
+});
+```

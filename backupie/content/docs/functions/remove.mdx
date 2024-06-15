@@ -1,0 +1,19 @@
+---
+title: Remove
+description: Remove Function
+---
+
+import { Callout } from 'fumadocs-ui/components/callout';
+
+<Callout title="Warning" type="warn">
+  Once the backup is removed, it is impossible to recover it!
+</Callout>
+
+```js
+/**
+ * @param {string} [backupID] - The ID of the backup to remove
+*/
+
+const backup = require("backupie");
+backup.remove(backupID);
+```
