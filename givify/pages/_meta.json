@@ -1,0 +1,26 @@
+{
+  "index": "Introduction",
+  "basics": "Basics",
+  "custom-dbs": "Custom Databases",
+  "events": "Events",
+  "contact": {
+    "title": "Example Bot",
+    "type": "page",
+    "href": "https://github.com/unf6/givify-bot",
+    "newWindow": true
+  },
+  "space": {
+    "title": " ",
+    "type": "page"
+  },
+  "Github": {
+    "title": "Github",
+    "type": "page",
+    "href": "https://github.com/unf6/givify",
+    "newWindow": true
+  },
+  "space2": {
+    "title": " ",
+    "type": "page"
+  }
+}
